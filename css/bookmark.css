@@ -1,0 +1,9 @@
+#daftarBookmark{display:grid;grid-template-columns:auto auto 1fr;column-gap:.6rem;align-items:center}
+#daftarBookmark h2{grid-column:1/-1;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--line);font-size:1.2rem}
+#daftarBookmark h2:first-child{margin-top:0;padding-top:0;border:0}
+#daftarBookmark p{grid-column:1/-1;color:var(--muted)}
+#daftarBookmark a,#daftarBookmark button{margin-top:1rem;padding:.6rem 1.2rem;border-radius:8px;font:600 .9rem var(--font-ui);text-decoration:none;cursor:pointer}
+#daftarBookmark a{justify-self:start;background:var(--green);color:var(--text);border:1px solid transparent}
+#daftarBookmark a:hover{background:var(--green-hi)}
+#daftarBookmark button{background:transparent;border:1px solid var(--line-strong);color:var(--text)}
+#daftarBookmark button:hover{border-color:var(--gold);color:var(--gold)}
