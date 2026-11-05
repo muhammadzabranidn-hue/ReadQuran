@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Surat - Alquranku</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/daftar-surat.css">
+</head>
+<body>
+    <header class="navbar"><div class="container">
+        <a class="brand" href="../index.html">Alquranku</a>
+        <ul class="nav-links">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="daftar-surat.html" aria-current="page">Daftar Surat</a></li>
+            <li><a href="bookmark.html">Bookmark</a></li>
+        </ul>
+    </div></header>
+
+    <div class="preloader">
+        <div class="loader"></div>
+        <p id="pesanLoading">Memuat data Alquranku...</p>
+    </div>
+
+    <main class="container">
+        <header class="page-head">
+            <h1>Daftar Surat</h1>
+            <p class="page-sub">114 surat Al-Qur'an. Cari berdasarkan nama latin.</p>
+            <input type="text" id="cariSurat" class="search" placeholder="Cari nama surat..." aria-label="Cari nama surat">
+        </header>
+        <div id="alquran"></div>
+    </main>
+
+    <footer class="footer"><div class="container">Data Al-Qur'an dari <a href="https://equran.id">equran.id</a></div></footer>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Surat - Alquranku</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/baca.css">
+</head>
+<body>
+    <header class="navbar"><div class="container">
+        <a class="brand" href="../index.html">Alquranku</a>
+        <ul class="nav-links">
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="daftar-surat.html">Daftar Surat</a></li>
+            <li><a href="bookmark.html">Bookmark</a></li>
+        </ul>
+    </div></header>
+
+    <main class="container baca">
+        <header class="page-head">
+            <a class="back-link" href="daftar-surat.html">Kembali ke daftar surat</a>
+            <h1 id="namaSurat"></h1>
+        </header>
+        <div id="daftarAyat"></div>
+    </main>
+
+    <div class="audio-bar"><div class="container">
+        <h2>Audio Murottal</h2>
+        <audio id="audioMurottal" controls></audio>
+    </div></div>
+
+    <script src="../assets/js/baca.js"></script>
+</body>
+</html>
