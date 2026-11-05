@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alquranku - Baca Al-Qur'an Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/landing.css">
 </head>
 <body>
-    
+    <header class="navbar"><div class="container">
+        <a class="brand" href="index.html">Alquranku</a>
+        <ul class="nav-links">
+            <li><a href="index.html" aria-current="page">Beranda</a></li>
+            <li><a href="#fitur">Fitur</a></li>
+            <li><a href="pages/bookmark.html">Bookmark</a></li>
+        </ul>
+        <a class="btn btn-primary" href="pages/daftar-surat.html">Daftar Surat</a>
+    </div></header>
+
+    <main>
+        <section class="hero container">
+            <p class="basmalah" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+            <h1>Baca Al-Qur'an dengan tenang.</h1>
+            <p class="lead">Alquranku menyajikan 114 surat lengkap dengan teks Arab, bacaan latin, terjemahan Indonesia, dan audio murottal. Cari surat, dengarkan, lalu simpan yang ingin Anda ulang.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="pages/daftar-surat.html">Mulai membaca</a>
+                <a class="btn btn-ghost" href="#fitur">Lihat fitur</a>
+            </div>
+        </section>
+
+        <section class="fitur container" id="fitur">
+            <h2>Yang bisa Anda lakukan</h2>
+            <div class="fitur-item"><h3>Cari surat</h3><p>Ketik nama surat dan daftar langsung menyaring hasilnya.</p></div>
+            <div class="fitur-item"><h3>Baca dengan terjemahan</h3><p>Setiap ayat tampil dalam teks Arab, bacaan latin, dan terjemahan bahasa Indonesia.</p></div>
+            <div class="fitur-item"><h3>Dengarkan murottal</h3><p>Putar audio lengkap satu surat langsung dari halaman baca.</p></div>
+            <div class="fitur-item"><h3>Simpan bookmark</h3><p>Tandai surat yang ingin dibaca lagi. Tersimpan di browser Anda, tanpa perlu akun.</p></div>
+        </section>
+    </main>
+
+    <footer class="footer"><div class="container">Data Al-Qur'an dari <a href="https://equran.id">equran.id</a></div></footer>
 </body>
 </html>
